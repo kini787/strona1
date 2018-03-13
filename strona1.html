@@ -17,9 +17,8 @@
 </head>
 
 
-<body leftmargin="100" rightmargin="100" topmargin="50" bottommargin="50">
-<body marginwidth="100" marginheight="100">
-<body bgcolor="#daecff" text="#001456"><font  face="Verdana" size="3">
+<body marginwidth="300" marginheight="50" bgcolor="#daecff" text="#001456">
+<font  face="Verdana" size="3">
   <script src="js/scripts.js"></script>
 	
 	<h1 style="text-align:center;">hello World</h1>
@@ -104,8 +103,17 @@
 <th rowspan="2">Numer startowy</th>
 <th rowspan="2">Nazwa drużyny</th>
 <th colspan="2"><style>
-th,td {
+
+table, th, td {
+    border: 1px solid black;
+	border-collapse: collapse;
     text-align: center;
+}
+th, td {
+    padding: 15px;
+}
+th {
+    text-align: left;
 }
 </style>Czas</th>
 <th rowspan="2">Miejsce OPEN</th>
@@ -134,6 +142,29 @@ th,td {
 <td>52:05:34</td>
 <td>3</td>
 </tr>
+</table>
+
+<!-- to jest defincja tabeli -->
+<table>
+<thead>
+<tr>
+<td></td>
+<th scope="col">Column Heading 1</th>
+<th scope="col">Column Heading 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">Row Heading 1</th>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th scope="row">Row Heading 1</th>
+<td></td>
+<td></td>
+</tr>
+</tbody>
 </table>
 			
 			<h3>Bieg retro</h3>
